@@ -1,0 +1,421 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #FDF5EF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 40px auto;
+    background: transparent;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #2b2b2b;
+}
+
+.sub-text {
+    color: #6d6d6d;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.input-field {
+    min-width: 100%;
+    padding: 16px;
+    border-radius: 30px;
+    border: 1px solid #F6CFAE;
+    margin-bottom: 18px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.captcha-box {
+    display: flex;
+    width: 100%;
+    border-radius: 30px;
+    border: 1px solid #F6CFAE;
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+
+.captcha-box input {
+    flex: 1;
+    padding: 16px;
+    border: none;
+    outline: none;
+}
+
+.captcha-value {
+    width: 35%;
+    background: #4d2c1a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.checkbox-container {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.checkbox-container input {
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.checkbox-container a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.submit-btn {
+    width: 100%;
+    background: #f49c2a;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+.top-bar {
+    width: 100%;
+    background: #FFF4EC;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+}
+
+.clove {
+    font-size: 40px;
+    font-weight: 600;
+    color: #B46A34;
+}
+
+.smile {
+    color: #D48A4A;
+    font-weight: 600;
+}
+
+.dental {
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-top: 8px;
+    padding-left: 25px;
+    color: #444;
+}
+
+.right-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.book-btn {
+    background: #EB8A2F;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.phone-btn {
+    border: 1.8px solid #2a2a2a;
+    background: white;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.faq-section {
+    width: 100%;
+    padding: 40px 50px;
+    background: #fff;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 35px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px 60px;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.faq-item p {
+    margin: 0;
+    font-size: 15px;
+    color: #333;
+}
+
+.faq-icon {
+    font-size: 22px;
+    font-weight: 600;
+    color: #E57F20;
+    cursor: pointer;
+}
+
+.consult-card {
+    width: 340px;
+    padding: 25px 25px;
+    background: #FFF7F1;
+    border-radius: 18px;
+    border: 1px solid #FDE0C6;
+    font-family: Arial, sans-serif;
+}
+
+.consult-title {
+    font-size: 20px;
+    margin: 0 0 8px;
+    color: #2c2c2c;
+    font-weight: 700;
+}
+
+.consult-subtitle {
+    margin: 0 0 20px;
+    font-size: 14px;
+    color: #6d6d6d;
+    line-height: 1.4;
+}
+
+.consult-input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 25px;
+    border: 1px solid #F9CBA7;
+    margin-bottom: 15px;
+    font-size: 14px;
+    outline: none;
+}
+
+.consult-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.consult-check input {
+    margin-top: 4px;
+}
+
+.consult-check a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.consult-btn {
+    width: 100%;
+    background: #F68A22;
+    border: none;
+    color: white;
+    padding: 14px 0;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.consult-btn:hover {
+    opacity: 0.9;
+}
+
+.appointment-box {
+    width: 100%;
+    background: #FFF7F1;
+    border: 1px solid #F5DCC4;
+    border-radius: 18px;
+    padding: 30px 35px;
+    font-family: Arial, sans-serif;
+}
+
+.appointment-title {
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.appointment-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    gap: 15px;
+    align-items: center;
+}
+
+.appoint-input {
+    padding: 15px;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #F4C6A3;
+    font-size: 14px;
+}
+
+.captcha-container {
+    display: flex;
+    border: 1px solid #F4C6A3;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.captcha-input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.captcha-value {
+    background: #4b2a1a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.appoint-btn {
+    background: #F68A22;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.appoint-btn:hover {
+    opacity: 0.9;
+}
+
+.appoint-check {
+    grid-column: span 4;
+    display: flex;
+    align-items: flex-start;
+    font-size: 13px;
+    color: #555;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.appoint-check input {
+    margin-top: 3px;
+}
+
+.appoint-check a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.clove-footer {
+    background: #4b2a1a;
+    color: #fff;
+    padding: 35px 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+.clove-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #E78A3B;
+}
+
+.smile {
+    color: #ffffff;
+}
+
+.dental-text {
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.footer-links a {
+    margin-left: 25px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-line {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,0.3);
+    margin: 20px 0;
+}
+
+.footer-bottom-text {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.85;
+}
